@@ -1,0 +1,16 @@
+1. Jalankan Xampp / Laragon
+2. Buat database baru
+3. Jika clone dari github
+- Buka CMD di folder project
+- Jalankan composer install
+- Jalankan cp .env.example .env
+- Jalankan php artisan key:generate
+- Jalankan php artisan storage:link
+- Buka Code Editor (Visual Studio/Sublime Text) (atau bisa mengetik "code ." di CMD)
+- Sesuaikan variable dengan awalan "DB_" dengan credential
+4. Jika Menggunakan file zip
+- Jalankan php artisan key:generate
+- Jalankan php artisan storage:link
+- Buka Code Editor (Visual Studio/Sublime Text) (atau bisa mengetik "code ." di CMD)
+- Sesuaikan variable dengan awalan "DB_" dengan credential
+5. Jalankan project dengan mengetik "php artisan serve" atau bisa menaruh folder project di dalam folder htdocs jika menggunakan xampp 
